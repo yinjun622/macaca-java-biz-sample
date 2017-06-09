@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="xxxxxxxxxx1.2.0版本测试报告" parallel="tests" thread-count="2">
+    <test name="4.x修改密码">
+    <parameter name="port" value="3456" />
+    <parameter name="proxyport" value="8880" />
+    <parameter name="udid" value="41007c6ff2cca283" />
+    <classes>
+    <class name="macaca.java.biz.MacacaTestNG" />
+    </classes>
+    </test>
+
+    <test name="6.x修改密码">
+        <parameter name="port" value="3457"/>
+        <parameter name="proxyport" value="8881" />
+        <parameter name="udid" value="HT5AJBE03040"/>
+        <classes>
+            <class name="macaca.java.biz.MacacaTestNG"/>
+        </classes>
+    </test>
+</suite>
+
